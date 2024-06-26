@@ -1,0 +1,77 @@
+.recentlyUpdated {
+    padding: 10px;
+    background-color: #000000;
+    margin-top: 80px;
+  
+    .recentbody {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    h2 {
+      font-size: 28px;
+      color: #ffffff;
+      margin-bottom: 15px;
+      font-weight: 500;
+      margin-left: 27px;
+    }
+  
+    .items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; // Ensures equal spacing between items
+      gap: 25px;
+    }
+  
+    .arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      padding: 30px;
+      background-color: #D9D9D9;
+    }
+  
+    .item {
+      flex: 1; // Makes each item take up an equal amount of space
+      display: flex;
+      align-items: center;
+      background-color: #000000;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 0 10px; // Optional: Add some margin to make space between items
+  
+      img {
+        width: 84px;
+        height: 140px;
+        border-radius: 5px;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+  
+      .details {
+        display: flex;
+        flex-direction: column;
+  
+        h3 {
+          color: #ffffff;
+          font-size: 22px;
+          margin: 0 0 5px 0;
+        }
+  
+        p {
+          font-size: 20px;
+          margin: 0;
+          color: #ffffff;
+  
+          &:not(:last-child) {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+  
